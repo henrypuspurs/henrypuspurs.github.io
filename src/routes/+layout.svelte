@@ -6,7 +6,7 @@
 
 <div class="flex flex-col min-h-screen bg-neutral-700">
 	<Navbar />
-	<div class="flex-grow ml-0 mr-0 md:ml-32 md:mr-32 lg:ml-60 lg:mr-60 font-serif text-neutral-300">
+	<div class="flex-grow ml-0 mr-0 md:ml-32 md:mr-32 lg:ml-60 lg:mr-60 prose prose-invert">
 		<slot />
 	</div>
 	<Footer />
