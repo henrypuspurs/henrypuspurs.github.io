@@ -1,3 +1,7 @@
+<script>
+	import Pill from './pill.svelte';
+</script>
+
 <!-- Main navigation container -->
 <nav
 	class="flex-no-wrap relative flex w-full items-center justify-between bg-neutral-800 lg:flex-wrap lg:justify-start lg:py-4"
@@ -38,23 +42,25 @@
 			data-te-collapse-item
 		>
 			<!-- Left navigation links -->
-			<ul
-				class="mr-auto flex flex-col lg:flex-row text-neutral-300 lg:px-2"
-				data-te-navbar-nav-ref
-			>
-				<li class="mb-4 lg:mb-0 lg:pr-2 hover:text-neutral-100" data-te-nav-item-ref>
+			<ul class="mr-auto flex flex-col lg:flex-row text-neutral-300 lg:px-2" data-te-navbar-nav-ref>
+				<li class="mb-4 lg:mb-0 lg:pr-2 hover:text-blue-500" data-te-nav-item-ref>
 					<a href="./" data-te-nav-link-ref>Profile</a>
 				</li>
-				<li class="mb-4 lg:mb-0 lg:pr-2 hover:text-neutral-100" data-te-nav-item-ref>
+				<li class="mb-4 lg:mb-0 lg:pr-2 hover:text-blue-500" data-te-nav-item-ref>
 					<a href="./resources" data-te-nav-link-ref>Resources</a>
 				</li>
-				<li class="mb-4 lg:mb-0 lg:pr-2 hover:text-neutral-100" data-te-nav-item-ref>
+				<li class="mb-4 lg:mb-0 lg:pr-2 hover:text-blue-500" data-te-nav-item-ref>
 					<a href="./blog" data-te-nav-link-ref>Blog</a>
 				</li>
 			</ul>
 		</div>
 
 		<!-- Right elements -->
-		<div class="relative flex items-center">A thing will go here</div>
+		<Pill			>
+			<a href="/"><img src="./HPuspursSM.jpg" class="h-8 rounded-full transition ease-in-out hover:brightness-125" alt="HP" /></a>
+			<a href="https://www.linkedin.com/in/henrijs-puspurs/" target="_blank"><img src="LI-In-Bug.png" class="h-8 transition ease-in-out hover:brightness-125" alt="HP" /></a>
+			<a href="https://github.com/henrypuspurs" target="_blank"><img src="github-mark-white.svg" class="w-8 brightness-75 transition ease-in-out hover:brightness-125" alt="HP" /></a>
+			</Pill
+		>
 	</div>
 </nav>
