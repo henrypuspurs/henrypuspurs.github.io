@@ -43,13 +43,13 @@
 		>
 			<!-- Left navigation links -->
 			<ul class="mr-auto flex flex-col lg:flex-row text-neutral-300 lg:px-2" data-te-navbar-nav-ref>
-				<li class="mb-4 lg:mb-0 lg:pr-2 transition ease-in-out hover:text-blue-500" data-te-nav-item-ref>
+				<li class="mb-4 lg:mb-0 lg:pr-2 transition ease-in-out hover:text-indigo-500" data-te-nav-item-ref>
 					<a href="./" data-te-nav-link-ref>Profile</a>
 				</li>
-				<li class="mb-4 lg:mb-0 lg:pr-2 transition ease-in-out hover:text-blue-500" data-te-nav-item-ref>
+				<li class="mb-4 lg:mb-0 lg:pr-2 transition ease-in-out hover:text-indigo-500" data-te-nav-item-ref>
 					<a href="./resources" data-te-nav-link-ref>Resources</a>
 				</li>
-				<li class="mb-4 lg:mb-0 lg:pr-2 transition ease-in-out hover:text-blue-500" data-te-nav-item-ref>
+				<li class="mb-4 lg:mb-0 lg:pr-2 transition ease-in-out hover:text-indigo-500" data-te-nav-item-ref>
 					<a href="./blog" data-te-nav-link-ref>Blog</a>
 				</li>
 			</ul>
