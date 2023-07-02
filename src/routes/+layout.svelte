@@ -5,9 +5,13 @@
 </script>
 
 <div class="flex flex-col min-h-screen bg-neutral-700">
-	<Navbar />
+	<div class="shadow-md">
+		<Navbar />
+	</div>
 	<div class="flex-grow ml-0 mr-0 md:ml-32 md:mr-32 lg:ml-60 lg:mr-60 prose prose-invert">
 		<slot />
 	</div>
-	<Footer />
+	<div class="drop-shadow-top-md">
+		<Footer />
+	</div>
 </div>
