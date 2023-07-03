@@ -1,11 +1,9 @@
 ---
-title: Test
+title: Test 2
 author: HP
-date: 2023-06-28
+date: 2023-07-01
 layout: blog
 ---
-
-# This is markdown
 
 ```cs
 static void Main(string[] args)

@@ -20,7 +20,8 @@ const config = {
 		adapter: adapter({
 			pages: '',
 			assets: ''
-		})
+		}),
+		
 	},
 
 	extensions: ['.svelte', '.md']

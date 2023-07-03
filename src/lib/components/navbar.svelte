@@ -43,24 +43,52 @@
 		>
 			<!-- Left navigation links -->
 			<ul class="mr-auto flex flex-col lg:flex-row text-neutral-300 lg:px-2" data-te-navbar-nav-ref>
-				<li class="mb-4 lg:mb-0 lg:pr-2 transition ease-in-out hover:text-indigo-500" data-te-nav-item-ref>
-					<a href="./" data-te-nav-link-ref>Profile</a>
+				<li
+					class="mb-4 lg:mb-0 lg:pr-2 transition ease-in-out hover:text-indigo-500"
+					data-te-nav-item-ref
+				>
+					<a href="/" data-te-nav-link-ref>Profile</a>
 				</li>
-				<li class="mb-4 lg:mb-0 lg:pr-2 transition ease-in-out hover:text-indigo-500" data-te-nav-item-ref>
-					<a href="./resources" data-te-nav-link-ref>Resources</a>
+				<li
+					class="mb-4 lg:mb-0 lg:pr-2 transition ease-in-out hover:text-indigo-500"
+					data-te-nav-item-ref
+				>
+					<a href="/resources" data-te-nav-link-ref>Resources</a>
 				</li>
-				<li class="mb-4 lg:mb-0 lg:pr-2 transition ease-in-out hover:text-indigo-500" data-te-nav-item-ref>
-					<a href="./blog" data-te-nav-link-ref>Blog</a>
+				<li
+					class="mb-4 lg:mb-0 lg:pr-2 transition ease-in-out hover:text-indigo-500"
+					data-te-nav-item-ref
+				>
+					<a href="/blog" data-te-nav-link-ref>Blog</a>
 				</li>
 			</ul>
 		</div>
 
 		<!-- Right elements -->
-		<Pill			>
-			<a href="/"><img src="./HPuspursSM.jpg" class="h-8 rounded-full transition ease-in-out hover:brightness-125" alt="HP" /></a>
-			<a href="https://www.linkedin.com/in/henrijs-puspurs/" target="_blank"><img src="LI-In-Bug.png" class="h-8 transition ease-in-out hover:brightness-125" alt="HP" /></a>
-			<a href="https://github.com/henrypuspurs" target="_blank"><img src="github-mark-white.svg" class="w-8 brightness-75 transition ease-in-out hover:brightness-125" alt="HP" /></a>
-			</Pill
-		>
+		<div class="text-indigo-500">
+			<Pill>
+				<a href="/"
+					><img
+						src="/HPuspursSM.jpg"
+						class="h-8 rounded-full transition ease-in-out hover:brightness-125"
+						alt="Henrijs Puspurs"
+					/></a
+				>
+				<a href="https://www.linkedin.com/in/henrijs-puspurs/" target="_blank"
+					><img
+						src="/LI-In-Bug.png"
+						class="h-8 transition ease-in-out hover:brightness-125"
+						alt="LinkedIn"
+					/></a
+				>
+				<a href="https://github.com/henrypuspurs" target="_blank"
+					><img
+						src="/github-mark-white.svg"
+						class="h-8 brightness-75 transition ease-in-out hover:brightness-125"
+						alt="GitHub"
+					/></a
+				>
+			</Pill>
+		</div>
 	</div>
 </nav>
