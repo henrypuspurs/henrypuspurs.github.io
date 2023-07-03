@@ -3,6 +3,7 @@ title: Test
 author: HP
 date: 2023-06-28
 layout: blog
+short: A test blog, the first one
 ---
 
 ```cs

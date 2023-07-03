@@ -16,7 +16,8 @@
 					{post.meta.metadata.title}
 				</a>
 			</h2>
-			Published {post.meta.metadata.date}
+			Published {new Date(post.meta.metadata.date).toLocaleDateString('en-GB')}
+			<p>{post.meta.metadata.short ?? ""}</p>
 		</li>
 	{/each}
 </ul>
